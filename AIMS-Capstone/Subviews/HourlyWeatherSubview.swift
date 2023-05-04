@@ -17,6 +17,8 @@ struct HourlyWeatherSubview: View {
         
         
         ZStack{
+            
+            //GET RID OF B/G COLOR? (UNNECCESSARY FOR DESTINATION/NICER TO LOOK AT HERE)
             Color("col-grey-dark")
                 .ignoresSafeArea()
             VStack {
@@ -36,6 +38,8 @@ struct HourlyWeatherSubview: View {
                                 //FIGURE OUT 12:00 DISPLAY
                                 Text("\((hour + index) % 12):00")
                                     .foregroundColor(Color("col-grey-light"))
+                                    
+                                    
                                 
                                 DetailWeatherSubview(showFahrenheit: showFahrenheit, count: index)
                                 

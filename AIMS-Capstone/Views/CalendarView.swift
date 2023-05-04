@@ -22,7 +22,7 @@ struct CalendarView: View {
                     .datePickerStyle(GraphicalDatePickerStyle())
                     .background(RoundedRectangle(cornerRadius: 20))
                     .foregroundColor(Color("col-grey-light"))
-                    .padding(25)
+                    .padding(15.0)
 
                 Spacer()
 

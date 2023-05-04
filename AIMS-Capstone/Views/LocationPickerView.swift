@@ -23,6 +23,7 @@ struct LocationPickerView: View {
                 
                 //carousel with supplied locations
                 //ADD CURRENT LOCATION DEFAULT
+                //ADD USER INPUT OPTION
                 Picker(selection: $modelData.selectedLocation, label: Text("")) {
                     ForEach(0..<modelData.locations.count) {
                         Text(modelData.locations[$0].name)
