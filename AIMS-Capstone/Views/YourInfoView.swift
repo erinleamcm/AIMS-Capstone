@@ -20,6 +20,8 @@ struct YourInfoView: View {
                         .foregroundColor(Color("col-grey-light"))
                 }
                 Spacer()
+                TabView()
+
             }
         }
     }

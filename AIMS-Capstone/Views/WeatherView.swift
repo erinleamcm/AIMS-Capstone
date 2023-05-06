@@ -19,13 +19,13 @@ struct WeatherView: View {
     private var items: FetchedResults<Item>
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 //Background color
-                
                 Color("col-grey-dark")
                     .ignoresSafeArea()
                 //     Image("header-orange")
+                
                 VStack(alignment: .leading) {
                     Image("header-orange")
                         .padding(.bottom, 25.0)
@@ -96,9 +96,9 @@ struct WeatherView: View {
                     
                     
                     //             //navigation menu-ADD LINKS/DESTINATIONS
-                                    TabView()
+                                TabView()
                     //                        .padding(5.0)
-                    Spacer()
+                  //  Spacer()
                 }
                // .padding(25.0)
                // .scrollContentBackground(.hidden)
