@@ -31,7 +31,8 @@ struct LocationPickerView: View {
                 }
                
                 Spacer()
-            }
+                TabView()            }
+            
         }
     }
 }

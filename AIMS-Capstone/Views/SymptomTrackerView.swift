@@ -16,10 +16,12 @@ struct SymptomTrackerView: View {
                 Image("header-orange")
                     .padding(.bottom, 25.0)
                 LazyVStack(){
-                    Text("HEY!")
+                    Text("SYMPTOMS!")
                         .foregroundColor(Color("col-grey-light"))
                 }
                 Spacer()
+                TabView()
+
             }
         }
     }
